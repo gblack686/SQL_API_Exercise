@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Cherre Exercise</title>
+  </head>
+
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/browser_frequency">View full browser frequency</a></li>
+    <li><a href="/top_browsers">View top Browsers</a></li>
+    <li><a href="/clear_database">Clear Top Browsers</a></li>
+    <li><a href="/query_top_browsers">Run SQl query for the top 10 browsers</a></li>
+    <br>
+    <li><a href="/table_column_info">Get Table Datatypes</a></li>
+    <li><a href="/table_lengths">Get Tables and Table Lengths</a></li>
+  </ul>
+
+  {% block content %}
+  {% endblock %}
+
+  <body>
+    <h2>Cherre programming exercise</h2>
+    <p>
+    Instructions
+    Given the attached SQLiteDB (testdb.db), make a program in any language which does the following:<br/>
+    1. find the ten people who have visited the most sites<br/>
+    2. list these people in descending order of the number of sites they've visited in a table called FrequentBrowsers<br/>
+    3. upload your solution, along with instructions on how to run it, to a public repository on GitHub<br/>
+    4. email the repository link to Cherre
+  
+    <h3>Considerations</h3>
+    We'd love to see what other cool stuff you can do!  
+  
+    Possible additions . . .<br/>
+    - provide a Dockerfile to run the solution in container<br/>
+    - provide an API to expose the results to the world<br/>
+    - unit tests<br/>
+    - on-board documentation.</p>
+  </body>
+
+</html>
