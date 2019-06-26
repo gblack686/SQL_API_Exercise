@@ -4,7 +4,8 @@
 
 ### Git clone the repository
 
-Visit http://localhost:8000
+Visit http://localhost:0000
+
 ```
 CD Cherre_Exercise
 
