@@ -7,7 +7,7 @@
 Visit http://localhost:0000
 
 ```
-CD Cherre_Exercise
+cd cherre_exercise
 
 python api/app.py
 ```
