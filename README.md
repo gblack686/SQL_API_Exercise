@@ -4,5 +4,7 @@
 
 Git clone the repository
 
+CD into Cherre_Exercise
+
 Run python api/app.py
 
