@@ -5,6 +5,8 @@
 ### Git clone the repository
 
 ```
+pip install -r api/requirements.txt
+
 cd cherre_exercise
 
 python api/app.py
