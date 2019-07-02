@@ -7,9 +7,11 @@
 ```
 cd cherre_exercise
 
-pip install -r api/requirements.txt
+cd api
 
-python api/app.py
+pip install -r requirements.txt
+
+python app.py
 ```
 
 Visit http://localhost:0000
